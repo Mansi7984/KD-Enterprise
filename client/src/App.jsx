@@ -8,7 +8,7 @@ import AboutUs from "../src/pages/AboutUs";
 import Services from "../src/pages/Services";
 import Products from "../src/pages/Products";
 import Contact from "../src/pages/Contact";
-import Order from "./pages/order";
+import OrderNow from "./pages/OrderNow";
 import Payment from "./pages/Payment";
 import ScrollToTop from "./components/ScrollToTop";
 
@@ -27,7 +27,7 @@ const App = () => (
           <Route path="/services" element={<Services />} />
           <Route path="/products" element={<Products />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/order" element={<Order />} />
+          <Route path="/order" element={<OrderNow />} />
           <Route path="/payment" element={<Payment />} />
         </Routes>
       </BrowserRouter>
