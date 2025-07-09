@@ -10,7 +10,7 @@ import Footer from "../components/Footer";
 import { ArrowLeft, Check, Phone, Mail } from "lucide-react";
 import { toast, Toaster } from "react-hot-toast";
 
-const Order = () => {
+const order = () => {
   const navigate = useNavigate();
 
   const [searchParams] = useSearchParams();
@@ -297,4 +297,4 @@ const Order = () => {
   );
 };
 
-export default Order;
+export default order;
