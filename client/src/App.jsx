@@ -8,7 +8,7 @@ import AboutUs from "../src/pages/AboutUs";
 import Services from "../src/pages/Services";
 import Products from "../src/pages/Products";
 import Contact from "../src/pages/Contact";
-import Order from "../src/pages/order";
+import Order from "./pages/order";
 import Payment from "./pages/Payment";
 import ScrollToTop from "./components/ScrollToTop";
 
